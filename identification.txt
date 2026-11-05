@@ -1,0 +1,4 @@
+(Inheritance): The Admin class extends the base User class to inherit its properties and methods.   
+(Composition): The NoteBook class contains a collection of Note objects, representing a strict part-whole relationship where notes belong to that notebook.   
+(Aggregation): A User can own multiple NoteBook instances independently of the user lifecycle.   
+(Association): Each Note maintains an author reference (userId) pointing to the User who created it.
